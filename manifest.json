@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Pirate Killer",
+  "description": "This extension block an illegible ads video",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "kirby.png",
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.037hdmovie.com/*"
+      ],
+      "js": [
+        "script.js"
+      ]
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ],
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}

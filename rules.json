@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "https://1991482557.rsc.cdn77.org",
+      "resourceTypes": [
+        "media"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*/brazil999.mp4",
+      "domain": [
+        "googles.video"
+      ],
+      "resourceTypes": [
+        "media"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*/hydra888.mp4",
+      "domain": [
+        "googles.video"
+      ],
+      "resourceTypes": [
+        "media"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*/lotto432.mp4",
+      "domain": [
+        "googles.video"
+      ],
+      "resourceTypes": [
+        "media"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*/Lcd168-new.mp4",
+      "domain": [
+        "cdend.com"
+      ],
+      "resourceTypes": [
+        "media"
+      ]
+    }
+  }
+]
